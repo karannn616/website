@@ -1,0 +1,44 @@
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+h1 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+p {
+  margin-bottom: 1em;
+}
+#fb1{
+    display: flex;
+    justify-content: center;
+    /* color: green; */
+}
+header h1{
+    color: var(--secondary-color);
+}
+
+#fb section{
+    max-width: 600px;
+    margin: auto;
+}
+#fb main section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#fb section h2{
+    display: flex;
+    justify-content: center;
+    color: var(--secondary-color);
+}
+#fb section ul li{
+    color: var(--primary-color);
+}
+
+#foot p{
+    display: flex;
+    justify-content: center;
+}
